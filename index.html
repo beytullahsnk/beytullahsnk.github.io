@@ -6,15 +6,16 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  	<title>Beytullah Sonkaya</title>
+  	<title>Portfolio Of Beytullah</title>
 
   	<link href="css/bootstrap.css" rel="stylesheet">
   	<link href="css/style.css" rel="stylesheet">
     <link href="css/media-query.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/elements/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
     <link href="https://fr.allfont.net/allfont.css?fonts=exo-bold" rel="stylesheet" type="text/css" />
-      <link href="https://fr.allfont.net/allfont.css?fonts=exo-extrabold" rel="stylesheet" type="text/css" />
+    <link href="https://fr.allfont.net/allfont.css?fonts=exo-extrabold" rel="stylesheet" type="text/css" />
+
 
 
 
@@ -23,39 +24,51 @@
   <body id="page-top">
 
   <nav class="navbar">
-    <div class="padding-global">
-      <img href="#page-top" src="img/logo.png" class="img-responsive">
+    <div class="navbar-fond"></div>
+    <div class="navbar-img">
+      <img href="#page-top" src="img/elements/logo.svg">
+    </div>
+    <div class="navbar-ul">
+      <a href="#" class="ulnavactive">Accueil</a>
+      <a class="ulnav">A Propos</a>
+      <a href="projets/index.html" class="ulnav">Projets</a>
+      <a class="ulnav">Blog</a>
+      <a class="ulnav">Contact</a>
+    </div>
+    <div class="navbar-icon">
+      <img src="img/elements/menu-close.svg" class="icon-ferme">
+      <img src="img/elements/menu-open.svg" class="icon-ouvert">
     </div>
   </nav>
 
   <section class="accueil">
-          <div class="accgauche">
-              <div class="padding-global">
-                <div class="acc-element">
-                  <h1>Beytullah Sonkaya</h1>
-                  <p>Développeur passionné et créatif, prêt à relever des défis technologiques pour transformer vos idées en réalités.</p>
-                  <button>MON CV</button>
-                </div>
+    <div class="accgauche">
+      <div class="padding-global">
+        <div class="acc-element">
+          <h1>Beytullah Sonkaya</h1>
+          <p>Développeur passionné et créatif, prêt à relever des défis technologiques pour transformer vos idées en réalités.</p>
+          <button>MON CV</button>
+        </div>
+      </div>
+    </div>
+    <div class="accdroite">
+      <div class="padding-global">
+        <div class="profile-and-avis">
+          <img class="imgprofile" src="img/elements/profile.png">
+            <div class="avis-mouchard">
+              <div class="stars">
+                <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+                <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+                <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+                <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+                <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
               </div>
-          </div>
-          <div class="accdroite">
-              <div class="padding-global">
-                <div class="profile-and-avis">
-                  <img class="imgprofile" src="img/profile.png">
-                    <div class="avis-mouchard">
-                      <div class="stars">
-                        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
-                        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
-                        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
-                        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
-                        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
-                      </div>
-                      <p>"Créativité exceptionnelle et solutions innovantes. Beytullah est un futur leader du développement web et du design. Bravo !"</p>
-                      <p id="nom-mouchard">J. Mouchard, Prof. en SIO</p>
-                    </div>
-                </div>
-              </div>
-          </div>
+              <p>"Créativité exceptionnelle et solutions innovantes. Beytullah est un futur leader du développement web et du design. Bravo !"</p>
+              <p id="nom-mouchard">J. Mouchard, Prof. en SIO</p>
+            </div>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="logos">
     <div class="logos-slide">
@@ -77,9 +90,10 @@
       <img src="img/logos/wordpress.svg" alt="Wordpress Logo"/>
     </div>
   </section>
+
+  <h1 class="h1compet">Compétences</h1>
   <section class="competences">
-    <div class="compet1">
-      <span></span>
+    <div class="compet">
       <div class="icon-compet">
         <img src="img/elements/eclair.svg" loading="lazy">
       </div>
@@ -91,8 +105,7 @@
       </a>
       <img src="img/elements/vert.svg" class="img-anim" loading="lazy">
     </div>
-    <div class="compet1">
-      <span></span>
+    <div class="compet">
       <div class="icon-compet">
         <img src="img/elements/3etoiles.svg" loading="lazy">
       </div>
@@ -104,8 +117,7 @@
       </a>
       <img src="img/elements/vert.svg" class="img-anim" loading="lazy">
     </div>
-    <div class="compet1">
-      <span></span>
+    <div class="compet">
       <div class="icon-compet">
         <img src="img/elements/etoile.svg" loading="lazy">
       </div>
@@ -119,11 +131,131 @@
     </div>
   </section>
 
+  <section class="mesprojets">
+    <h1>Mes Projets</h1>
+    <div class="mesprojetscontainer">
+      <div class="projetgauche">
+        <h3>Application Flutter</h3>
+        <p>Une application web réalisée avec Flutter. Cette app est destiné à Chicken City pour la prise de commande</p>
+        <button>Savoir Plus</button>
+      </div>
+      <div class="projetdroite">
+        <div class="imgshadowdroite">
+          <img src="img/photos/projet1.png">
+        </div>
+      </div>
+    </div>
+    <div class="mesprojetscontainer">
+      <div class="projetgauche-reverse">
+        <div class="imgshadowgauche">
+          <img src="img/photos/projet2.png">
+        </div>
+      </div>
+      <div class="projetdroite-reverse">
+        <h3>Construction DSN</h3>
+        <p>Site web Vitrine réalisé pour Construction DSN</p>
+        <button>Savoir Plus</button>
+      </div>
+    </div>
+    <div class="mesprojetscontainer">
+      <div class="projetgauche borderfinishgauche">
+        <h3>Projet WorkOut</h3>
+        <p>Application Web pour récolter des récompense après un effort sportive</p>
+        <button>Savoir Plus</button>
+      </div>
+      <div class="projetdroite borderfinishdroite">
+        <div class="imgshadowdroite">
+          <img src="img/photos/projet3.png">
+        </div>
+      </div>
+    </div>
+    <div class="btn-projet-div">
+      <a href="projets/index.html" class="btn-projet">VOIR PLUS</a>
+    </div>
+  </section>
+  <section class="parcours">
+    <h1>Parcours</h1>
+    <div class="container-parcours">
+      <div class="schema">
+        <div class="date-block">
+          <img src="img/elements/Vector.svg" alt="Icon" class="icon">
+          <div class="vertical-line"></div>
+          <div>
+            <h4 class="date">2021 - Aujourd’hui</h4>
+            <h3>BTS SIO option SLAM</h3>
+            <p style="padding-bottom: 40px;">Rédaction d’un cahier des charges, formulation des besoins et spécifications, développement web et applications.</p>
+          </div>
+        </div>
+    
+        <div class="date-block">
+          <img src="img/elements/Vector.svg" alt="Icon" class="icon">
+          <div class="vertical-line"></div>
+          <div>
+            <h4 class="date">2019 - 2021</h4>
+            <h3>BAC STI2D</h3>
+            <p>Rédaction d’un cahier des charges, formulation des besoins et spécifications, développement web et applications.</p>
+          </div>
+        </div>
+      </div>
+      <div class="parc-img">
+        <img src="img/elements/parcours.png">
+      </div>
+    </div>
+  </section>
 
-  <script>
-    var copy = document.querySelector(".logos-slide").cloneNode(true);
-    document.querySelector(".logos").appendChild(copy);
-  </script>
+  <section class="review">
+    <div class="img-furkan">
+      <img src="img/elements/furkan.png">
+    </div>
+    <div class="review-furkan">
+      <div class="stars">
+        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+        <img src="https://assets.website-files.com/6364601fd2dab187d805113f/636942f98abc404af203fe41_Star.svg" loading="lazy" alt="Star Icon" class="star">
+      </div>
+      <p id="fufu-avis">"Entrepreneur talentueux, Beytullah a transformé notre présence numérique chez Royal Food. Son expertise en développement web, design et applications a été inestimable. Un partenaire précieux pour votre entreprise, à recommander sans hésiter !"</p>
+      <p id="fufu-nom">Furkan Ucar</p>
+      <p id="fufu-pdg">PDG de <a href="https://www.royalfood41.fr">Royal Food</a></p>
+    </div>
+  </section>
+  <section class="form-contact">
+    <div class="titre">
+      <h1 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">Contact</h1>
+      <h3>Vous n'aimez pas les formulaires ? Envoyez-moi un <a href="mailto:beytullah.sonkaya@skyaksa.fr">email</a>. 👋</h3>
+    </div>
+    <div class="formulaire" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
+      <input placeholder="Nom...">
+      <input placeholder="Email...">
+      <textarea placeholder="Message..."></textarea>
+      <button class="btn-form">ENVOYER</button>
+    </div>
+  </section>
 
+  <footer class="footer">
+    <div class="reseau">
+      <a href="https://www.instagram.com/beytullahsnk" target="_blank" rel="noopener noreferrer"><img src="img/elements/instagram.svg" id="img-reseau"></a>
+      <a href="https://www.linkedin.com/in/beytullah-sonkaya" target="_blank" rel="noopener noreferrer"><img src="img/elements/linkedin.svg" id="img-reseau"></a>
+      <a href="https://www.skyaksa.fr" target="_blank" rel="noopener noreferrer"><img src="img/elements/web.svg" id="img-reseau"></a>
+    </div>
+    <div class="nav-footer">
+      <div class="nav-footer-img">
+        <img src="img/elements/logo-white.svg">
+      </div>
+      <div class="nav-footer-ul">
+        <a href="#"class="ulfootactive">Accueil</a>
+        <a class="ulfoot">A Propos</a>
+        <a href="projets/index.html"class="ulfoot">Projets</a>
+        <a class="ulfoot">Blog</a>
+        <a class="ulfoot">Contact</a>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; Beytullah Sonkaya | Conception web par <a id="nam" href="https://www.skyaksa.fr/">SKYAKSA</a></p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
   </body>
 </html>

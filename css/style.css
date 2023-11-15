@@ -105,12 +105,14 @@ body {
   font-size: 1.5rem;
   color: black;
 }
-.accgauche button{
+
+.btn-cv{
   background: #65CBB5;
   border: 2px solid #0D0D0D;
   box-shadow: -4px 4px 0px 1px #000000;
   border-radius: 12px;
   padding: 20px 33.25px 20px 34px;
+  text-decoration: none;
 
   margin-top: 30px;
   font-size: 22px;
@@ -118,13 +120,25 @@ body {
   line-height: 22px;
   color: black;
 
+  display: flex;
+  justify-content: center;
   font-family: 'Exo Bold', arial;
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
-.accgauche button:hover {
+.btn-cv:hover {
   box-shadow: none;
   transform: translate(-4px, 4px);
 }
+.btn-cv-div{
+  display: flex;
+}
+.btn-cv-div a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
 
 .accdroite{    /* partie droite */
   background-color: #F9DDC5;

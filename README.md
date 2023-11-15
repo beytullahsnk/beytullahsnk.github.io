@@ -13,6 +13,6 @@ If you have any queries regarding my portfolio or if you'd like to discuss any a
 
 📧 Email: beytullah.sonkaya@skyaksa.fr</br>
 🌐 LinkedIn: https://www.linkedin.com/in/beytullah-sonkaya/</br>
-🐱‍💻 GitHub: https://github.com/beytullahsnk</br>
+💻 GitHub: https://github.com/beytullahsnk</br>
 </br>
 🙏 Thank you for taking the time to review my portfolio. I eagerly await any feedback or insights you might have.

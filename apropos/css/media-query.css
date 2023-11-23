@@ -73,6 +73,7 @@
 @media (max-width: 991px) {
   .accueil{
     grid-template-columns: 1fr;
+    padding: 76px 0px 0px 0px;
   }
 
   .accgauche {
@@ -104,109 +105,8 @@
       font-size: 1.25rem;
   }
 }
-@media screen and (max-width: 479px){
-  .avis-mouchard{
-    padding: 1rem;
-  }
-}
-@media (min-width: 1700px) and (max-width: 2400px)  {
-  .avis-mouchard{
-    right: 30%;
-  }
-}
-@media (min-width: 2400px) and (max-width: 4000px)  {
-  .avis-mouchard{
-    right: 55%;
-  }
-}
-/*---SLIDER IMAGE---*/
-/* vide */
 
-/*---COMPETENCES---*/
-@media screen and (max-width: 991px){
-  .competences {
-    grid-row-gap: 60px;
-    grid-template-columns: 1fr;
-    width: 90%;
-    margin: auto;
-  }
-  .compet {
-    color: white;
-    margin: auto;
-    display: block;
-  }
-  .compet .img-anim {
-    display: block;
-  }
-  .h1compet{
-    font-size: 2.5rem;
-  }
-}
-@media screen and (max-width: 767px){
-  .compet h3{
-      font-size: 28px;
-  }
-}
-@media screen and (max-width: 600px){
-  .competences {
-    padding:0px;
-    padding-top: 30px;
-  }
-  .h1compet{
-    text-align: center;
-    padding: 50px 0px 0px 0px;
-  }
-}
 
-/*---MES PROJETS---*/
-@media screen and (max-width: 991px){
-  .mesprojetscontainer{
-    grid-template-columns: 1fr;
-  }
-  .projetgauche {
-    order: 2;
-    border-width: 0px 0px 0px 0px;
-    padding-bottom: 120px
-  }
-  .projetdroite {
-    padding: 96px 0 96px 0;
-    padding-right: 5%;
-    padding-left: 5%;
-
-    border-width: 2px 0px 2px 0px;
-    border-style: solid;
-    border-color: #0D0D0D;
-    border-radius: 0px 0px 0px 0px;
-    box-shadow: 0 0 0 0 #000;
-  }
-  .projetdroite-reverse{
-    border-width: 0px 0px 0px 0px;
-    padding-bottom: 120px
-  }
-  .projetgauche-reverse {
-    padding: 96px 0 96px 0;
-    padding-right: 5%;
-    padding-left: 5%;
-
-    border-width: 2px 0px 2px 0px;
-    border-style: solid;
-    border-color: #0D0D0D;
-    border-radius: 0px 0px 0px 0px;
-    box-shadow: 0 0 0 0 #000;
-  }
-  .borderfinishgauche{
-    padding-bottom: 50px
-  }
-  .mesprojets h1{
-    font-size: 2.5rem;
-  }
-  .projetgauche p,.projetdroite-reverse p{
-    font-size: 1.375rem;
-  }
-  .projetgauche h3,.projetdroite-reverse h3{
-    font-size: 2rem;
-  }
-}
 
 /*---PARCOURS---*/
 @media screen and (max-width: 991px){
@@ -227,32 +127,71 @@
   }
 }
 
-/*---AVIS FURKAN---*/
+/*---AVIS---*/
 @media screen and (max-width: 991px){
-  .review-furkan p{
-    font-size: 1.375rem;
+  .padding-avis{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-right: 5%;
+    padding-left: 5%;
   }
-  #fufu-pdg{
-    font-size: 18px;
+
+}
+@media screen and (max-width: 767px){
+  .avis-icon-container{
+    max-height: 15.75rem;
+    max-width: 15.75rem;
   }
-  .review{
-    grid-template-columns: 1fr;
+  .avis-image{
+    width: 15.875rem;
+    height: 15.875rem;
+    border: 2px solid #0d0d0d;
+    border-radius: 50%;
+    object-fit: cover;
   }
-  .review-furkan{
-    padding-top: 80px;
-    padding-left: 0%;
+  .avis{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .avis p{
+    font-size: 1.25rem;
+  }
+  .fleche{
+    left: 45.5%;
+    top: -2.75rem;
+    transform: rotate(90deg);
+  }
+  .fleche.interieur{
+    left: 45.5%;
+    transform: translate(0,0.25rem) rotate(90deg);
+  }
+  .fleche.ombre{
+    left: 47%;
+    transform: rotate(90deg) translate(0,0.375rem);
   }
 }
-@media (min-width: 992px){
-  .img-furkan{
-    padding: 60px 0px 60px 0px;
+
+/*---EXPERIENCE---*/
+@media screen and (max-width: 767px){
+  .experience-head h2{
+    font-size: 2rem;
+  }
+  .experience-label {
+    font-size: 0.9rem;
+  }
+  .experience-description h3{
+    font-size: 1.5rem;
+  }
+  .milieu img {
+    max-height: 4rem;
   }
 }
-@media (min-width: 992px) and (max-width: 1450px)  {
-  .review-furkan{
-    padding-left: 12%;
+@media screen and (max-width: 1050px){
+  .experience-content{
+    flex-wrap: wrap;
   }
 }
+
 
 /*---CONTACT---*/
 @media screen and (max-width: 991px){
@@ -281,9 +220,12 @@
     padding: 8px 16px;
   }
 }
-
 @media (max-width: 650px) {
   .off-mobile {
     display: none;
   }
 }
+
+
+
+

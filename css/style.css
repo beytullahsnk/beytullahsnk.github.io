@@ -628,6 +628,8 @@ body {
   font-size: 20px;
 }
 #fufu-pdg a{
+  font-weight: 600;
+  text-decoration: none;
   color: #000;
 }
 
@@ -648,45 +650,13 @@ body {
 .titre h3{
   font-size: 1.5rem;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
-.titre a{
-  color: #65CBB5;
-  text-decoration: none;
-}
-.titre a:hover{
-  color: #59b3a0;
-  text-decoration: none;
-}
-.formulaire{
+.bouton{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 32px;
-}
-.formulaire input,
-.formulaire textarea{
-  background: rgba(255, 255, 255, 0.002);
-  border: 2px solid #0D0D0D;
-  box-shadow: -4px 4px 0px 1px #000000;
-  border-radius: 12px;
-  width: 65%;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 20px;
-  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-.formulaire textarea{
-  height: 120px;
-}
-.formulaire input:focus,
-.formulaire textarea:focus{
-  outline: none;
-  box-shadow: none;
-  transform: translate(-4px, 4px);
 }
 .btn-form{
   background: #65CBB5;
@@ -705,10 +675,13 @@ body {
   justify-content: center;
   font-family: 'Exo Bold', arial;
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+  text-decoration: none;
 }
 .btn-form:hover {
   box-shadow: none;
   transform: translate(-4px, 4px);
+  color: #000;
 }
 
 /*-- FOOTER --*/

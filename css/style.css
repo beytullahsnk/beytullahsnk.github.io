@@ -414,8 +414,8 @@ body {
   line-height: 1.125;
   font-weight: 700;
 }
-.projetgauche button,
-.projetdroite-reverse button{
+.projetgauche a,
+.projetdroite-reverse a{
   padding: 0.375rem 2rem;
   border: 1px solid #0d0d0d;
   border-radius: 0.75rem;
@@ -423,8 +423,9 @@ body {
   color: #0d0d0d;
   font-size: 1.25rem;
   font-weight: 600;
+  text-decoration: none;
 }
-.projetgauche button:hover {
+.projetgauche a:hover {
   background-color: rgba(13,13,13,.04)
 }
 .projetdroite img{
@@ -466,7 +467,7 @@ body {
   flex: 1;
   max-width: 100%;
 }
-.projetdroite-reverse button:hover {
+.projetdroite-reverse a:hover {
   background-color: rgba(13,13,13,.04)
 }
 .projetgauche-reverse img{
@@ -615,6 +616,8 @@ body {
 }
 .review-furkan p{
   font-size: 1.5rem;
+  color: #000;
+
 }
 #fufu-avis{
   margin-bottom: 30px;
@@ -623,12 +626,14 @@ body {
   margin-bottom: 0px;
   font-weight: 600;
   font-family: 'Exo Bold', arial;
+  color: #000;
 }
 #fufu-pdg{
   font-size: 20px;
+  color: #000;
+
 }
 #fufu-pdg a{
-  font-weight: 600;
   text-decoration: none;
   color: #000;
 }

@@ -39,7 +39,7 @@
   <section class="contact-header">
     <div class="padding-global">
       <div class="contact-label">Commençons un projet ensemble.</div>
-      <div class="contact-head">Discutons de vos projets ! Envoyez vos idées créatives et ensemble, transformons-les en grands succès."</div>
+      <div class="contact-head">Discutons de vos projets ! Envoyez vos idées créatives et ensemble, transformons-les en grands succès.</div>
     </div>
   </section>
  
@@ -47,11 +47,11 @@
     <div class="titre">
       <h3>Vous n'aimez pas les formulaires ? Envoyez-moi un <a href="mailto:beytullah.sonkaya@skyaksa.fr">email</a>. 👋</h3>
     </div>
-    <div class="formulaire" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-      <input placeholder="Nom...">
-      <input placeholder="Email...">
-      <textarea placeholder="Message..."></textarea>
-      <button class="btn-form">ENVOYER</button>
+    <div id="form" class="formulaire">
+      <input type="text" id="name" placeholder="Nom..." required>
+      <input type="email" id="email" placeholder="Email..." required>
+      <textarea id="message" placeholder="Message..." required></textarea>
+      <button onclick="sendMail()" type="submit" class="btn-form">ENVOYER</button>
     </div>
   </section>
 
@@ -139,8 +139,20 @@
       <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; Beytullah Sonkaya | Conception web par <a id="nam" href="https://www.skyaksa.fr/">SKYAKSA</a></p>
     </div>
   </footer>
-  <script src="js/script.js"></script>
   </body>
-  
+
+  <script src="js/script.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+  (function(){
+      emailjs.init("rmj7ePOcOkl-5u97i");
+  })();
+  </script>
+
 </html>
 

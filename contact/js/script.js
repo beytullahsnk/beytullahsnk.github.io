@@ -110,3 +110,31 @@ document.querySelectorAll('.faq-item').forEach(item => {
 
 
 
+// Formulaire de contact
+function sendMail() {
+  let allAreFilled = true;
+  document.getElementById("form").querySelectorAll("[required]").forEach(function(i) {
+    if (!i.value) { allAreFilled = false;   }
+  })
+  if (allAreFilled){
+      var params = {
+      name : document.getElementById("name").value,
+      email : document.getElementById("email").value,
+      message : document.getElementById("message").value
+  }
+
+  emailjs.send("service_lkbi5fr","template_qv4pa0t",params)
+  .then(function(response) {
+      swal("Envoyé !", "Votre message a été envoyé avec succès!", "success")
+      document.getElementById("name").value=""
+      document.getElementById("email").value=""
+      document.getElementById("message").value="";
+   }, function(error) {
+      swal("Erreur !", "Votre message n'a pas été envoyé !", "error");
+  })
+  }
+  if (!allAreFilled) {
+    swal('Veuillez remplir les champs obligatoires !');
+  }
+};
+

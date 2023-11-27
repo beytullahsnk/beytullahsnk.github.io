@@ -113,7 +113,7 @@ body {
   box-shadow: 0 0 0 1px #000;
 
   align-items: flex-start;
-  padding: 218.5px 350px 218.5px 98px;
+  padding: 118.5px 250px 118.5px 98px;
 
   display: flex;
   flex-direction: column;
@@ -167,7 +167,7 @@ body {
   box-shadow: 1px 0 0 0 #000;
 
   align-items: flex-start;
-  padding: 218.5px 350px 218.5px 98px;
+  padding: 118.5px 250px 118.5px 98px;
   
   display: flex;
   flex-direction: column;
@@ -233,9 +233,63 @@ body {
 }
 
 
+/*---CONTACT---*/
+.form-contact{
+  margin-top: 100px;
+  justify-content: center;
+  background-color: #000;
+  padding-bottom: 80px;
+}
+.titre h1{
+  padding: 60px 0px 8px 0px;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: 'Exo ExtraBold', arial;
+  color: #FFF;
+}
+.titre h3{
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 20px;
+    color: #FFF;
+
+}
+.bouton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+.btn-form{
+  background: #65CBB5;
+  border: 2px solid #0D0D0D;
+  box-shadow: -4px 4px 0px 1px #fff;
+  border-radius: 12px;
+  padding: 20px 33.25px 20px 34px;
+
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  font-family: 'Exo Bold', arial;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+  text-decoration: none;
+}
+.btn-form:hover {
+  box-shadow: none;
+  transform: translate(-4px, 4px);
+  color: #000;
+}
+
 /*-- FOOTER --*/
 .footer{
-  margin-top: 100px;
   padding: 15px;
   background-color: #000;
   display: flex;
@@ -324,28 +378,3 @@ body {
   color: #fff;
 }
 
-/*---PROJET2---*/
-.projetgauche-reverse-linkedin{
-  background-color: #9991DA;
-  border-width: 1px 1px 1px 0px;
-  border-style: solid;
-  border-radius: 0px 0px 64px 0px;
-
-  border-color: #0D0D0D;
-  box-shadow: 1px 0 0 0 #000;
-
-  align-items: flex-start;
-  padding: 218.5px 350px 218.5px 98px;
-  
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-  padding-right: 5%;
-}
-
-.projetgauche-reverse-linkedin img{
-  max-width: 100%;
-  height: auto;
-}

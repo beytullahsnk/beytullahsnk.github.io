@@ -166,7 +166,10 @@
   .projetgauche {
     order: 2;
     border-width: 0px 0px 0px 0px;
-    padding-bottom: 120px
+    padding-bottom: 120px;
+
+    padding: 50px 15px 50px 15px;
+
   }
   .projetdroite {
     padding: 96px 0 96px 0;
@@ -178,10 +181,14 @@
     border-color: #0D0D0D;
     border-radius: 0px 0px 0px 0px;
     box-shadow: 0 0 0 0 #000;
+
   }
   .projetdroite-reverse{
     border-width: 0px 0px 0px 0px;
-    padding-bottom: 120px
+    padding-bottom: 120px;
+
+    padding: 50px 15px 50px 15px;
+
   }
   .projetgauche-reverse {
     padding: 96px 0 96px 0;
@@ -208,60 +215,16 @@
   }
 }
 
-/*---PARCOURS---*/
-@media screen and (max-width: 991px){
-  .parcours h1{
-    font-size: 2.5rem;
-  }
-  .parcours .parc-img {
-    display: none;
-  }
-  .schema p{
-    font-size: 1.375rem;
-  }
-  .schema h3{
-    font-size: 2rem;
-  }
-}
 
-/*---AVIS FURKAN---*/
-@media screen and (max-width: 991px){
-  .review-furkan p{
-    font-size: 1.375rem;
-  }
-  #fufu-pdg{
-    font-size: 18px;
-  }
-  .review{
-    grid-template-columns: 1fr;
-  }
-  .review-furkan{
-    padding-top: 80px;
-    padding-left: 0%;
-  }
-}
-@media (min-width: 992px){
-  .img-furkan{
-    padding: 60px 0px 60px 0px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1450px)  {
-  .review-furkan{
-    padding-left: 12%;
-  }
-}
+
 
 /*---CONTACT---*/
 @media screen and (max-width: 991px){
   .titre h1{
     font-size: 2.5rem;
   }
-  .titreh3 p{
+  .titre h3{
     font-size: 1.375rem;
-  }
-  .formulaire input,
-  .formulaire textarea{
-    width: 85%;
   }
 }
 
@@ -280,5 +243,10 @@
   }
   .nav-footer-ul a{
     padding: 8px 16px;
+  }
+}
+@media (max-width: 650px) {
+  .off-mobile {
+    display: none;
   }
 }

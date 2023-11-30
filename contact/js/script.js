@@ -134,7 +134,7 @@ function sendMail() {
   })
   }
   if (!allAreFilled) {
-    swal('Veuillez remplir les champs obligatoires !');
+    swal('Veuillez remplir tout les champs !');
   }
 };
 

@@ -1,4 +1,4 @@
-# 🎓 Portfolio - E4 Exam BTS
+# 🎓 Portfolio
 ## 📌 Introduction
 Hello! I'm Beytullah, a BTS Information Technology student. This portfolio has been meticulously curated for my E4 exam, showcasing the range of projects, tasks, and skills I've acquired during my academic journey.
 
